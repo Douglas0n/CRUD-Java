@@ -1,0 +1,187 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/12/2017, 22:32:32
+    Author     : Douglas-ASUS
+*/
+body{
+    background-color: ghostwhite;
+    font-family: Arial Narrow, sans-serif;
+}
+
+div.home{
+    text-align: center;
+}
+
+div.Formulario{
+    text-align: left;
+}
+
+div.menu{
+    background-color: lavender;
+    text-align: center;
+    height: 35px;
+}
+
+hr.menu{
+    background-color: aqua;
+    opacity: 0.2;
+    text-align: center;
+    border: none
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial Narrow, sans-serif;  
+}
+
+button#home{
+    width: 250px;
+    height: 50px;
+}
+
+button#Form{
+    width: 80px;
+    height: 30px;
+}
+
+input#Form{
+    width: 80px;
+    height: 30px;
+}
+
+fieldset#dados{
+    width: 900px;
+    height: 240px;
+}
+
+fieldset#manutencao{
+    width: 900px;
+    height: 350px;
+}
+
+fieldset#operacoes{
+    width: 900px;
+    height: 100px;
+}
+
+fieldset#exibicao{
+    width: 900px;
+    height: 150px;
+}
+
+fieldset#info{
+    width: 900px;
+    height: 250px;
+}
+
+fieldset#consulta{
+    background-color: lavender;
+    width: 900px;
+}
+
+input#operacoes{
+    width: 100px;
+    height: 25px;
+}
+
+p.rodape{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial Narrow, sans-serif;
+}
+
+fieldset {
+    background-color: lavender;
+    border-radius: 10px;
+    /*display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;*/
+    width: 900px;
+    
+}
+
+/* Cadastro  */
+
+input.fId{
+    height: 20px;
+}
+
+input.fNome{
+    position: relative;
+    left: 4%;
+    width: 430px;
+    height: 20px;
+}
+
+input.fFone{
+    height: 20px;
+}
+
+input.rSexo{
+    position: relative;
+    left: 4%;
+}
+
+input.fRenda{
+    position: relative;
+    left: 8%;
+    height: 20px;
+}
+
+label.lNome{
+    position: relative;
+    left: 20%;
+}
+
+label.lSexo{
+    position: relative;
+    left: 15%;
+}
+
+label.Mas{
+    position: relative;
+    left: 4%;
+}
+
+label.Fem{
+    position: relative;
+    left: 4%;
+}
+
+label.lRenda{
+    position: relative;
+    left: 35%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*fonte para paragrafo Arial Narrow, sans-serif*/
