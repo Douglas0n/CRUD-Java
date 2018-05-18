@@ -1,23 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package recursos;
 import java.sql.*;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
-import static javax.swing.JOptionPane.ERROR_MESSAGE;
-/**
- *
- * @author Douglas-ASUS
- */
-
 //A classe DAO: Data Acess Object
 //para acesso e manipulação no banco de dados
 //utilizando o driver jdbc do MySQL.
 public class AcessDao {
-    
     String url = "jdbc:mysql://localhost:3306/clientedb";
     String driver = "com.mysql.jdbc.Driver";
     String user = "root";
@@ -25,11 +12,9 @@ public class AcessDao {
     Connection conexao;
     PreparedStatement instrucao;
     int a;
-
     public int getA() {
         return a;
     }
-    
     //Método para se conectar ao banco de dados
     //Derby (porta 1527, localhost) 
     //user: root 
@@ -82,7 +67,6 @@ public class AcessDao {
                // JOptionPane.showMessageDialog(null,  "Os dados foram excluídos com sucesso!");
                 return 1;
             }
-            
         } catch (SQLException x) {
             //JOptionPane.showMessageDialog(null, "Falha ao excluir! \n"+x.getMessage());
         }
@@ -144,6 +128,5 @@ public class AcessDao {
             //JOptionPane.showMessageDialog(null, "Erro ao atualizar os dados \n"+x.getMessage());
         }
     }
-    
 }
 

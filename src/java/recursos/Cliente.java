@@ -1,22 +1,18 @@
-
 package recursos;
-
 //Classe da qual o objeto conterá os dados para serem
 //inseridos no banco de dados.
 public class Cliente {
-    
    //As variaveis String que armazenam os dados. 
    private int id;
    private String nome;
    private int telefone;
    private String sexo;
-   private double renda;
+   private double renda;   
    
    //Construtor vazio utilizado para instanciar
    //objetos cliente dentro de metodos da classe dao
    public Cliente(){
    }
-   
    //O construtor armazenara os dados no objeto quando instanciado.
     public Cliente(int id, String nome, int telefone, String sexo, double renda) {
         this.id = id;
